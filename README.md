@@ -20,12 +20,12 @@ Author: 栗漢文  r11922191
    ``` shell
    sudo bash ./download.sh
    ```  
-3. Test the model by:
+2. Test the model by:
    ``` shell
    sudo bash ./run.sh /path/to/context.json /path/to/test.json /path/to/pred/prediction.csv
    ```
 
 ## Others
-1. QA_train_plot is the code I plot the loss and EM for Report Q3.  
-2. QA_train_from_scratch is the code I train span selection model form scratch for Report Q4.
+1. QA_train_plot.py is the code I plot the loss and EM for Report Q3.  
+2. QA_train_from_scratch.py is the code I train span selection model from scratch for Report Q4.
 
