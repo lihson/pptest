@@ -3,14 +3,14 @@ Author: 栗漢文  r11922191
 
 ## Training
 1. Make sure the datas like train.json, valid.json and context.json are already locate in `./data/`
-2. Train the Paragraph Selection and Question Answering model by:
+2. Train the Paragraph Selection and Span Selection model by:
    ``` shell
    sudo bash ./train.sh
    ```
    The train.sh contains three steps:
    * run PS_train.py to train a paragraph selection model
    * run preprocess.py to transfer data format into squad format, the new datas will be in `./preprocessed`
-   * run QA_train.py to train a question answering model
+   * run QA_train.py to train a span selection model
       
    The hyper-parameters in train.sh can be modified  
    The model will locate in `./ckpt/PS` and `./ckpt/QA`
